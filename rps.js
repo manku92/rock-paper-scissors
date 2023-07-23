@@ -1,8 +1,7 @@
-
 let computerChoice = Math.floor(Math.random() * 3) // generates random numbers 0-2
-let userChoice = prompt("rock paper scissors");
+let userChoice = prompt("rock paper scissors"); // asks for user choice
 
-// gets computer choice
+// gets computer choice 
 function getCompChoice (value){
   let result = "";
 
@@ -68,4 +67,4 @@ function playRound(userSelect, compSelect){
 let GUC = getUserChoice(userChoice);
 let GCC = getCompChoice(computerChoice);
 
-alert(playRound(GUC, GCC));
+alert(playRound(GUC, GCC)); // displays game result
