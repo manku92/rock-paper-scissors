@@ -27,32 +27,6 @@ function playRound(userSelect, compSelect){
   }else if(compSelect === "rock" && userSelect === "scissors" || compSelect === "paper" && userSelect === "rock" || compSelect === "scissors" && userSelect === "paper"){
     result = `${compSelect} beats ${userSelect}`;
   }
-
-  // if(userSelect === "rock"){
-  //   if(compSelect === "rock"){
-  //     result = "rock all";
-  //   }else if(compSelect === "paper"){
-  //     result = "rock loses paper";
-  //   }else if(compSelect === "scissors"){
-  //     result = "rock beats scissors";
-  //   }
-  // }else if (userSelect === "paper"){
-  //   if(compSelect === "paper"){
-  //     result = "paper all";
-  //   }else if(compSelect === "scissors"){
-  //     result = "paper loses scissors";
-  //   }else if(compSelect === "rock"){
-  //     result = "paper beats rock";
-  //   }
-  // }else if(userSelect === "scissors"){
-  //   if(compSelect === "scissors"){
-  //     result = "scissors all";
-  //   }else if(compSelect === "rock"){
-  //     result = "scissors loses rock";
-  //   }else if(compSelect === "paper"){
-  //     result = "scissors beats paper";
-  //   }
-  // }
   return result
 }
 
